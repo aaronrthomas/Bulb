@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f9fa; /* Light background color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+header {
+    background: #4CAF50; /* Header background color */
+    color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+.logo {
+    font-size: 28px; /* Slightly larger logo */
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+.carousel {
+    /* margin: 40px auto; Center the carousel */
+    margin: 20px auto; /* Center carousel with margin */
+}
+
+footer {
+    /* text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%; */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Button styles */
+.btn {
+    border-radius: 20px; /* Rounded button edges */
+}
+
+/* Card title styling */
+.card-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .logo {
+        font-size: 28px; /* Adjust logo size for mobile */
+    }
+}
+
+
+.logo {
+    font-size: 36px; /* Larger logo size */
+}
+#cart-message {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;}
+    .hidden {
+        display: none;
+    }
